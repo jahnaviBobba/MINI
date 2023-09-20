@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1b4189;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #1b4189;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+  <h2>IT PROJECTS HUB</h2>
+  <p>Developed by the students of IT department</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="rashmi.jpg" alt="Rashmi" width="300" height="300">
+      <div class="container">
+        <h2>Rashmi Sunkara</h2>
+        <p>19331A1249</p>
+        <p>19331a1249@mvgrce.in</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="jhanu.jpeg" alt="Jahnavi" width="300" height="300">
+      <div class="container">
+        <h2>Bobba Jahnavi</h2>
+        <p>19331A1207</p>
+        <p>19331a1207@mvgrce.in</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="ravi.jpg" alt="Ravi" width="300" height="300">
+      <div class="container">
+        <h2>Pilla Ravi</h2>
+        <p>19331A1244</p>
+        <p>19331a1244@mvgrce.in</p>
+      </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <img src="niha.jpeg" alt="Niharika" width="300" height="300">
+      <div class="container">
+        <h2>Jami Niharika</h2>
+        <p>19331A1224</p>
+        <p>19331a1224@mvgrce.in</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
